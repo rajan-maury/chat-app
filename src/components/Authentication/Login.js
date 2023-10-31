@@ -43,7 +43,7 @@ const Login = () => {
       
       console.log(email,password);
       const { data } = await axios.post(
-        "http://localhost:8000/api/user/login",
+        "https://charming-sweatpants-cow.cyclic.app/api/user/login",
         { email, password },
         config
       );

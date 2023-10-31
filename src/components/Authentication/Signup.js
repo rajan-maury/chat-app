@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "http://localhost:8000/api/user",
+        "https://charming-sweatpants-cow.cyclic.app/api/user",
         {
           name,
           email,
