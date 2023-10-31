@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "https://chat-app-backend3-c468.onrender.comapi/user",
+        "https://chat-app-backend3-c468.onrender.com/api/user",
         {
           name,
           email,
