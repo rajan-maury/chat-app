@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 yarn.lock
+# "chat-app": "file:..",
 
 # testing
 /coverage
