@@ -25,7 +25,7 @@ const MyChats = ({ fetchAgain }) => {
         },
       };
 
-      const { data } = await axios.get("https://charming-sweatpants-cow.cyclic.app/api/chat", config);
+      const { data } = await axios.get("https://chat-app-backend3-c468.onrender.comapi/chat", config);
       setChats(data);
     } catch (error) {
       toast({
